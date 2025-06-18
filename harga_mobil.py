@@ -1,6 +1,9 @@
 import streamlit as st
 import pickle
 import pandas as pd
+from sklearn.pipeline import Pipeline
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
+from sklearn.compose import ColumnTransformer
 
 # Load model pipeline
 filename = 'harga_mobil.sav'
