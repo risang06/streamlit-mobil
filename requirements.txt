@@ -1,6 +1,4 @@
-streamlit>=1.30.0
-pandas>
-numpy
+streamlit
+pandas
 scikit-learn
-matplotlib==3.5.2
-seaborn
+joblib
