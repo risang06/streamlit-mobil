@@ -78,4 +78,4 @@ if submit:
     }])
 
     prediksi = pipeline.predict(input_data)[0]
-    st.markdown(f"<h2 style='color: green;'>Estimasi Harga Mobil: Rp{prediksi:,.0f}</h2>", unsafe_allow_html=True)
+    st.markdown(f"<h2 style='color: green;'>Prediksi Harga Mobil: Rp{prediksi:,.0f}</h2>", unsafe_allow_html=True)
